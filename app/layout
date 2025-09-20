@@ -1,0 +1,9 @@
+
+export const metadata = {
+  title: "proStore – Análise e Proposta",
+  description: "Fluxo de análise e proposta com cores SERASA.",
+};
+import "./globals.css";
+export default function RootLayout({ children }: { children: React.ReactNode }) {
+  return (<html lang="pt-BR"><body>{children}</body></html>);
+}
