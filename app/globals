@@ -1,0 +1,18 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --serasa-blue:#1D4F91;
+  --serasa-blue-2:#426DA9;
+  --serasa-magenta:#E80070;
+  --serasa-purple:#C1188B;
+}
+body{ @apply bg-gray-50 text-gray-900; }
+.btn-primary{ background:var(--serasa-blue); color:#fff; }
+.btn-primary:hover{ background:#143a69; }
+.btn-accent{ background:var(--serasa-magenta); color:#fff; }
+.btn-accent:hover{ background:#c40060; }
+.chip{ background:#E1E4EF; color:var(--serasa-blue); }
+.card-ring{ box-shadow:0 0 0 3px rgba(232,0,112,.1); }
